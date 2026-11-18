@@ -54,7 +54,11 @@ const variants = (parts, render) => Object.fromEntries(Object.keys(parts).map((k
 const definition = {
   $schema: 'https://cdn.hopjs.net/npm/@dicebear/schema@2.1.0/dist/definition.min.json',
   meta: {
-    license: { name: 'CC0 1.0', url: 'https://creativecommons.org/publicdomain/zero/1.0/' },
+    license: {
+      name: 'CC0 1.0',
+      url: 'https://creativecommons.org/publicdomain/zero/1.0/',
+      text: '„Glaze Flowers” (https://github.com/Root-Bert/glaze-flowers) by „Robert Hofmann”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)',
+    },
     creator: { name: 'Robert Hofmann', url: 'https://github.com/Root-Bert' },
     source: { name: 'Glaze Flowers', url: 'https://github.com/Root-Bert/glaze-flowers' },
   },
