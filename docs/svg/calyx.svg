@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" data-flower="calyx"><defs>
+<filter id="bcprq2ap" x="-20%" y="-20%" width="140%" height="140%">
+<feTurbulence type="fractalNoise" baseFrequency=".03" numOctaves="2" seed="898" result="n"/>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="7" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feTurbulence type="fractalNoise" baseFrequency=".018 .11" numOctaves="3" seed="905" result="s"/>
+<feColorMatrix in="s" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.2 0 0 0 .38" result="a"/>
+<feComposite in="d" in2="a" operator="in"/>
+</filter>
+<filter id="bcprq2as" x="-60%" y="-10%" width="220%" height="120%">
+<feTurbulence type="fractalNoise" baseFrequency=".02" numOctaves="2" seed="901" result="n"/>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="8" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feTurbulence type="fractalNoise" baseFrequency=".16 .012" numOctaves="3" seed="909" result="s"/>
+<feColorMatrix in="s" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.2 0 0 0 .36" result="a"/>
+<feComposite in="d" in2="a" operator="in"/>
+</filter>
+<filter id="bcprq2ab" x="0" y="0" width="100%" height="100%">
+<feTurbulence type="fractalNoise" baseFrequency=".025" numOctaves="2" seed="907" result="n"/>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="6" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feTurbulence type="fractalNoise" baseFrequency=".012 .09" numOctaves="3" seed="911" result="s"/>
+<feColorMatrix in="s" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 .5" result="a"/>
+<feComposite in="d" in2="a" operator="in"/>
+</filter>
+<filter id="bcprq2ag" x="-20%" y="-20%" width="140%" height="140%">
+<feTurbulence type="fractalNoise" baseFrequency=".045" numOctaves="2" seed="903" result="n"/>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="4.5" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feGaussianBlur in="d" stdDeviation="2.2" result="b"/>
+<feSpecularLighting in="b" surfaceScale="2.4" specularConstant=".2" specularExponent="16" lighting-color="#E2A988" result="l"><feDistantLight azimuth="230" elevation="58"/></feSpecularLighting>
+<feComposite in="l" in2="d" operator="in" result="lc"/>
+<feMerge><feMergeNode in="d"/><feMergeNode in="lc"/></feMerge>
+</filter>
+
+</defs><g><rect width="200" height="200" fill="#F3EAD0"/><path d="M92,118 C90,146 95,170 91,206 L109,206 C112,172 106,146 108,118Z" fill="#74A862" filter="url(#bcprq2as)"/><g transform="translate(100 84) rotate(-2.8) scale(1.12)"><g filter="url(#bcprq2ap)"><path d="M0,0 C19,-13.5 16.2,-48.6 0,-54 C-16.1,-48.6 -19,-13.5 0,0Z" transform="rotate(-90)" fill="#9CCBE8"/><path d="M0,0 C19,-13.5 16.2,-48.6 0,-54 C-16.1,-48.6 -19,-13.5 0,0Z" transform="rotate(-45)" fill="#9CCBE8"/><path d="M0,0 C19,-13.5 16.2,-48.6 0,-54 C-16.1,-48.6 -19,-13.5 0,0Z" transform="rotate(0)" fill="#9CCBE8"/><path d="M0,0 C19,-13.5 16.2,-48.6 0,-54 C-16.1,-48.6 -19,-13.5 0,0Z" transform="rotate(45)" fill="#9CCBE8"/><path d="M0,0 C19,-13.5 16.2,-48.6 0,-54 C-16.1,-48.6 -19,-13.5 0,0Z" transform="rotate(90)" fill="#9CCBE8"/><path d="M0,0 C12,-11 10.2,-39.6 0,-44 C-10.2,-39.6 -12,-11 0,0Z" transform="rotate(-68)" fill="#F1CB3C" opacity=".9"/><path d="M0,0 C12,-11 10.2,-39.6 0,-44 C-10.2,-39.6 -12,-11 0,0Z" transform="rotate(-22)" fill="#F1CB3C" opacity=".9"/><path d="M0,0 C12,-11 10.2,-39.6 0,-44 C-10.2,-39.6 -12,-11 0,0Z" transform="rotate(22)" fill="#F1CB3C" opacity=".9"/><path d="M0,0 C12,-11 10.2,-39.6 0,-44 C-10.2,-39.6 -12,-11 0,0Z" transform="rotate(68)" fill="#F1CB3C" opacity=".9"/><circle r="30" fill="#F1CB3C"/></g><g filter="url(#bcprq2ag)"><path d="M0,-30 C13,-37.5 11,-54 0,-60 C-11,-54 -13,-37.5 0,-30Z" transform="rotate(128)" fill="#3A1D15"/><path d="M0,-30 C13,-37.5 11,-54 0,-60 C-11,-54 -13,-37.5 0,-30Z" transform="rotate(180)" fill="#3A1D15"/><path d="M0,-30 C13,-37.5 11,-54 0,-60 C-11,-54 -13,-37.5 0,-30Z" transform="rotate(232)" fill="#3A1D15"/><circle cx="38.8" cy="9.7" r="4.5" fill="#3A1D15"/><circle cx="-38.8" cy="9.7" r="4.5" fill="#3A1D15"/><g transform="translate(0 -2)"><circle cx="-16" cy="-6" r="7.4" fill="#3A1D15"/><circle cx="-18" cy="-8.4" r="2" fill="#FAF4E1"/><path d="M8.5,-3 Q16,-14 23.5,-3" fill="none" stroke="#3A1D15" stroke-width="7" stroke-linecap="round"/><path d="M-16,8 Q0,27 16,8" fill="none" stroke="#3A1D15" stroke-width="6.6" stroke-linecap="round"/></g></g></g></g></svg>

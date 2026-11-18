@@ -1,0 +1,28 @@
+{
+  "name": "glaze-flowers",
+  "version": "0.1.0",
+  "description": "Happy flower avatars in the look of a hand-painted, glazed ceramic vase. Deterministic SVG from a seed, also as a DiceBear style.",
+  "keywords": ["avatar", "avatars", "svg", "flowers", "identicon", "dicebear", "placeholder"],
+  "license": "CC0-1.0",
+  "author": "Robert Hofmann (https://github.com/Root-Bert)",
+  "repository": { "type": "git", "url": "git+https://github.com/Root-Bert/glaze-flowers.git" },
+  "homepage": "https://root-bert.github.io/glaze-flowers/",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./src/flowers.mjs",
+  "types": "./src/flowers.d.ts",
+  "exports": {
+    ".": { "types": "./src/flowers.d.ts", "default": "./src/flowers.mjs" },
+    "./dicebear": "./dicebear/glaze-flowers.json",
+    "./dicebear/glaze-flowers.json": "./dicebear/glaze-flowers.json"
+  },
+  "files": ["src", "dicebear", "LICENSE", "README.md"],
+  "scripts": {
+    "build": "node scripts/build.mjs && node scripts/dicebear.mjs",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "@dicebear/core": "^10.7.0",
+    "@dicebear/schema": "^2.1.0"
+  }
+}
