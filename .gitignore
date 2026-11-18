@@ -2,3 +2,4 @@ node_modules
 out
 scripts/*.local.mjs
 .DS_Store
+*.local.md
