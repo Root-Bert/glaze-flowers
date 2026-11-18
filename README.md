@@ -4,7 +4,9 @@ Happy flower avatars in the look of a hand-painted, glazed ceramic vase. One see
 
 ![Sixteen flower avatars generated from names](docs/preview.png)
 
-[Gallery of all flowers, eyes and backgrounds](https://root-bert.github.io/glaze-flowers/)
+[![npm](https://img.shields.io/npm/v/glaze-flowers)](https://www.npmjs.com/package/glaze-flowers)
+
+[npm package](https://www.npmjs.com/package/glaze-flowers) · [Gallery of all flowers, eyes and backgrounds](https://root-bert.github.io/glaze-flowers/)
 
 - 11 flowers, 5 pairs of eyes, 4 mouths, optional cheeks – all of them happy
 - 6 plain backgrounds, 3 meadows, 3 skies

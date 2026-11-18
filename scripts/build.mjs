@@ -58,7 +58,7 @@ figcaption{font-size:11px;opacity:.6;margin-top:3px}
 </style>
 <h1>Glaze Flowers</h1>
 <p>Happy flower avatars in the look of a hand-painted, glazed ceramic vase. One seed, one flower. Free to use, no credit needed (CC0).
-<a href="https://github.com/Root-Bert/glaze-flowers">GitHub</a></p>
+<a href="https://github.com/Root-Bert/glaze-flowers">GitHub</a> · <a href="https://www.npmjs.com/package/glaze-flowers">npm</a></p>
 <div id="hero" class="grid">${seeded.join('')}</div>
 <h2>Use</h2>
 <pre>npm install glaze-flowers
